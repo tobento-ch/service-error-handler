@@ -130,8 +130,8 @@ $throwableHandlers->add([ThrowableHandler::class, 'name' => 'value']);
 ```php
 use Throwable;
 
-$throwableHandlers->add(function(Throwable $t): null|Throwable {
-    // Return null if can handle throwable, otherwise throwable.
+$throwableHandlers->add(function(Throwable $t): mixed {
+    // Return throwable if cannot handle, otherwise anything else.
     return $t;
 });
 ```
