@@ -88,7 +88,7 @@ class ThrowableHandlerFactory implements ThrowableHandlerFactoryInterface
 
             public function handle(
                 Throwable $t,
-            ): null|Throwable {
+            ): mixed {
                 return ($this->handler)($t);
             }
         };
