@@ -73,7 +73,7 @@ class Debug implements ThrowableHandlerInterface
             $this->view = new View(
                 new PhpRenderer(
                     new Dirs(
-                        new Dir(__DIR__.'/../../resources/view'),
+                        new Dir(realpath(__DIR__.'/../../resources/view')),
                     )
                 )
             );
