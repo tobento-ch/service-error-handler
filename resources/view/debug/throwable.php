@@ -9,7 +9,7 @@
 
     <details<?= $num === 1 ? ' open' : '' ?>>
         <summary>code</summary>
-        <div>[<?= $view->esc($throwable->getCode()) ?>] <?= $view->esc($view->toErrorType($throwable->getCode())) ?></div>
+        <div>[<?= $view->esc($throwable->getCode()) ?>] <?= $view->esc($view->toErrorType((int)$throwable->getCode())) ?></div>
     </details>
 
     <details<?= $num === 1 ? ' open' : '' ?>>
