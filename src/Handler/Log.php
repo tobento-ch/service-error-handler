@@ -35,7 +35,6 @@ class Log implements ThrowableHandlerInterface
         \E_USER_DEPRECATED => LogLevel::INFO,
         \E_NOTICE => LogLevel::WARNING,
         \E_USER_NOTICE => LogLevel::WARNING,
-        \E_STRICT => LogLevel::WARNING,
         \E_WARNING => LogLevel::WARNING,
         \E_USER_WARNING => LogLevel::WARNING,
         \E_COMPILE_WARNING => LogLevel::WARNING,
@@ -46,6 +45,7 @@ class Log implements ThrowableHandlerInterface
         \E_PARSE => LogLevel::CRITICAL,
         \E_ERROR => LogLevel::CRITICAL,
         \E_CORE_ERROR => LogLevel::CRITICAL,
+        \E_ALL => LogLevel::WARNING,
     ];
     
     /**

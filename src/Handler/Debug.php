@@ -36,7 +36,6 @@ class Debug implements ThrowableHandlerInterface
         \E_USER_DEPRECATED => 'User Deprecated',
         \E_NOTICE => 'Notice',
         \E_USER_NOTICE => 'User Notice',
-        \E_STRICT => 'Runtime Notice',
         \E_WARNING => 'Warning',
         \E_USER_WARNING => 'User Warning',
         \E_COMPILE_WARNING => 'Compile Warning',
@@ -47,6 +46,7 @@ class Debug implements ThrowableHandlerInterface
         \E_PARSE => 'Parse Error',
         \E_ERROR => 'Error',
         \E_CORE_ERROR => 'Core Error',
+        \E_ALL => 'Runtime Notice',
     ];
     
     /**
