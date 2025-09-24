@@ -24,9 +24,6 @@ use Tobento\Service\ErrorHandler\Test\Mock\{
     HandlerWithoutParameters,
 };
 
-/**
- * AutowiringThrowableHandlerFactoryTest
- */
 class AutowiringThrowableHandlerFactoryTest extends TestCase
 {
     private function createFactory(): AutowiringThrowableHandlerFactory
