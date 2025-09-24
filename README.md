@@ -32,7 +32,7 @@ composer require tobento/service-error-handler
 
 ## Requirements
 
-- PHP 8.0 or greater
+- PHP 8.4 or greater
 
 ## Highlights
 
