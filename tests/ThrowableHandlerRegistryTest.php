@@ -16,9 +16,6 @@ namespace Tobento\Service\ErrorHandler\Test;
 use PHPUnit\Framework\TestCase;
 use Tobento\Service\ErrorHandler\ThrowableHandlerRegistry;
 
-/**
- * ThrowableHandlerRegistryTest
- */
 class ThrowableHandlerRegistryTest extends TestCase
 {
     public function testGetHandlerMethod()

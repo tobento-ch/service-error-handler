@@ -22,9 +22,6 @@ use Tobento\Service\ErrorHandler\Test\Mock\{
     HandlerBar,
 };
 
-/**
- * ThrowableHandlersTest
- */
 class ThrowableHandlersTest extends TestCase
 {
     public function testThatImplementsThrowableHandlersInterface()
